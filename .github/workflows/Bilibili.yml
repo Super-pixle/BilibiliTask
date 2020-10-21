@@ -9,6 +9,8 @@ on:
    gollum:
    schedule: 
        - cron: '30 2 * * *'
+   watch:
+    types: started
 
 jobs:
   start:
